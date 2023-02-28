@@ -1,4 +1,4 @@
-###FOr instalatting download the tar.gz from 
+###Download Related package with the tar.gz from 
 ##https://github.com/timothyfrasier/related
 
 library(related) #to analyze the data
