@@ -136,7 +136,6 @@ build_discrite_labels <- function(vec=NULL, n.breaks=5){
   doreplace <- rep(c(TRUE, rep(FALSE, n.breaks-1)), ceiling(length(vec.levels)/n.breaks))
   out.labels <- vec.levels
   out.labels[!doreplace] <- ""
-  out.labels <- out.labels[I(length(heatlbs)+1):length(doreplace)*-1]
   names(out.labels) <- vec.levels
   return(out.labels)
 }
